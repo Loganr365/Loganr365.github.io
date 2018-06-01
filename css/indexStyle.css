@@ -46,6 +46,10 @@ a:hover{
 	width: 420;
 	height: 420;
 }
+#wrapper {
+    width: 65%;
+    margin: auto;
+}
 
 @media screen and (max-width: 480px){
 	#contentImage{

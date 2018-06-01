@@ -52,7 +52,10 @@ a:hover{
 #content{
 	width: 100%;
 }
-
+#wrapper {
+    width: 65%;
+    margin: auto;
+}
 @media screen and (max-width: 480px){
 	#contentImage{
 		display: none;
