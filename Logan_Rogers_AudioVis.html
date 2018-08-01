@@ -38,9 +38,9 @@
 	(function(){
 		"use strict";
 		var NUM_SAMPLES = 256;
-		var SOUND_1 = 'media/The Picard Song.mp3';
-		var SOUND_2 = 'media/New Adventure Theme.mp3';
-		var SOUND_3 = 'media/Peanuts Theme.mp3';
+		var SOUND_1 = 'Media/The Picard Song.mp3';
+		var SOUND_2 = 'Media/New Adventure Theme.mp3';
+		var SOUND_3 = 'Media/Peanuts Theme.mp3';
 		var audioElement;
 		var analyserNode;
 		var canvas,ctx;
@@ -219,7 +219,7 @@
 		//plays audio stream
 		function playStream(audioElement,path){
 			audioElement.src = path;
-			audioElement.play();
+			//audioElement.play();
 			audioElement.volume = 0.2;
 			document.querySelector('#status').innerHTML = "Now playing: " + path;
 		}
@@ -565,9 +565,9 @@
 		<audio controls loop></audio>
 		<label>Track: 
 			<select id="trackSelect" >
-				<option value="media/The Picard Song.mp3">The Picard Song</option>
-				<option value="media/New Adventure Theme.mp3">New Adventure Theme</option>
-				<option value="media/Peanuts Theme.mp3">Peanuts Theme</option>
+				<option value="Media/The Picard Song.mp3">The Picard Song</option>
+				<option value="Mediaa/New Adventure Theme.mp3">New Adventure Theme</option>
+				<option value="Media/Peanuts Theme.mp3">Peanuts Theme</option>
 			</select>
 		</label>
 		<button id="fsButton">Go Full Screen</button><br>
@@ -609,7 +609,7 @@
 			</label></p>
 	
 		<p>
-		<img id="background" src="media/background.jpg" alt="background used in canvas" style="display:none;"/>
+		<img id="background" src="Media/background.jpg" alt="background used in canvas" style="display:none;"/>
 		</p>
 	</div>
 </body>
